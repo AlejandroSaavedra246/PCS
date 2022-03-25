@@ -80,7 +80,7 @@ controller.getPets = (req, res) =>
 
 controller.postPet = (req, res) =>
 {
-    const sql = "INSERT INTO pets SET ?";
+    const sql = "INSERT INTO pets set ? ";
     req.getConnection((error,conn) => {
         if(error)
         {
