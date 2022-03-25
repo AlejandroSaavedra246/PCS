@@ -6,4 +6,4 @@ let config = {
 	database: "heroku_755eb81efd60190",
 	secret_key: "qwertyuiopasdfghjklñzxcvbnM4"
 };
-exports.config = config;
+exports.config = config; 
